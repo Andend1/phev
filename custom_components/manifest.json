@@ -1,0 +1,9 @@
+{
+  "domain": "phev",
+  "name": "PHEV Integration",
+  "version": "1.0",
+  "documentation": "https://github.com/Andend1/phev",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@Andend1"]
+}
