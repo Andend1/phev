@@ -1,0 +1,16 @@
+{
+  "name": "PHEVCore",
+  "version": "1.0",
+  "slug": "phevcore",
+  "description": "En add-on for å kjøre PHEVCore",
+  "startup": "services",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"],
+  "ports": {
+    "8080/tcp": 8080
+  },
+  "privileged": ["NET_ADMIN"],
+  "map": ["config:rw", "ssl:rw", "share:rw", "addons:rw", "backup:rw"]
+}
